@@ -1,0 +1,49 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F131D" />
+      <stop offset="50%" stop-color="#701F2B" />
+      <stop offset="100%" stop-color="#3F352F" />
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#B08D57" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#701F2B" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#heroBg)" />
+  <circle cx="600" cy="380" r="350" fill="url(#goldGlow)" />
+
+  <!-- Outer Traditional Gold Frame -->
+  <rect x="30" y="30" width="1140" height="740" rx="8" stroke="#B08D57" stroke-width="2" fill="none" />
+  <rect x="42" y="42" width="1116" height="716" rx="6" stroke="#D4B886" stroke-width="1" stroke-opacity="0.5" fill="none" />
+
+  <!-- Corner Lotus Ornaments -->
+  <circle cx="50" cy="50" r="12" fill="#B08D57" fill-opacity="0.2" stroke="#B08D57" />
+  <circle cx="1150" cy="50" r="12" fill="#B08D57" fill-opacity="0.2" stroke="#B08D57" />
+  <circle cx="50" cy="750" r="12" fill="#B08D57" fill-opacity="0.2" stroke="#B08D57" />
+  <circle cx="1150" cy="750" r="12" fill="#B08D57" fill-opacity="0.2" stroke="#B08D57" />
+
+  <!-- Silhouette / Placeholder Graphic -->
+  <g transform="translate(600, 320)">
+    <circle cx="0" cy="-60" r="42" fill="#D4B886" fill-opacity="0.8" />
+    <path d="M-60 40C-60 -20 60 -20 60 40Z" fill="#D4B886" fill-opacity="0.8" />
+    <circle cx="-50" cy="-45" r="36" fill="#F7F2E8" fill-opacity="0.7" />
+    <path d="M-100 45C-100 -10 0 -10 0 45Z" fill="#F7F2E8" fill-opacity="0.7" />
+  </g>
+
+  <!-- Center Label & Guidance -->
+  <text x="600" y="450" text-anchor="middle" fill="#F7F2E8" font-family="'Cormorant Garamond', Georgia, serif" font-size="34" font-weight="600" letter-spacing="3">
+    SHUBHAM &amp; TEJAL
+  </text>
+  <text x="600" y="495" text-anchor="middle" fill="#D4B886" font-family="'Inter', sans-serif" font-size="16" letter-spacing="2">
+    COUPLE PHOTOGRAPH PLACEHOLDER
+  </text>
+  <text x="600" y="535" text-anchor="middle" fill="#F7F2E8" fill-opacity="0.75" font-family="'Inter', sans-serif" font-size="14">
+    Replace with your high-resolution portrait in public/assets/images/
+  </text>
+  <text x="600" y="565" text-anchor="middle" fill="#D4B886" fill-opacity="0.9" font-family="'Inter', sans-serif" font-size="13">
+    Recommended Size: 1920 × 1080 px or 1200 × 800 px (Landscape)
+  </text>
+</svg>

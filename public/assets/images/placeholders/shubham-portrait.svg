@@ -1,0 +1,32 @@
+<svg width="600" height="750" viewBox="0 0 600 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shubhamBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3F352F" />
+      <stop offset="100%" stop-color="#4F131D" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#shubhamBg)" />
+  <rect x="20" y="20" width="560" height="710" rx="8" stroke="#B08D57" stroke-width="2" fill="none" />
+  <rect x="28" y="28" width="544" height="694" rx="6" stroke="#D4B886" stroke-width="1" stroke-opacity="0.4" fill="none" />
+
+  <!-- Groom Silhouette Motif -->
+  <g transform="translate(300, 310)">
+    <circle cx="0" cy="-60" r="55" fill="#D4B886" fill-opacity="0.8" />
+    <path d="M-80 60C-80 -15 80 -15 80 60Z" fill="#D4B886" fill-opacity="0.8" />
+  </g>
+
+  <!-- Typography -->
+  <text x="300" y="440" text-anchor="middle" fill="#F7F2E8" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="600" letter-spacing="2">
+    SHUBHAM SOMWANSHI
+  </text>
+  <text x="300" y="475" text-anchor="middle" fill="#D4B886" font-family="'Inter', sans-serif" font-size="14" letter-spacing="2">
+    GROOM PORTRAIT PLACEHOLDER
+  </text>
+  <text x="300" y="515" text-anchor="middle" fill="#F7F2E8" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="13">
+    Replace with Shubham’s portrait in public/assets/images/
+  </text>
+  <text x="300" y="540" text-anchor="middle" fill="#D4B886" fill-opacity="0.8" font-family="'Inter', sans-serif" font-size="12">
+    Aspect ratio: 4:5 or 3:4 portrait
+  </text>
+</svg>

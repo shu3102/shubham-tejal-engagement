@@ -1,0 +1,16 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g_story-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F2E8" />
+      <stop offset="100%" stop-color="#EDE5D4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g_story-4)" />
+  <rect x="16" y="16" width="768" height="468" rx="8" stroke="#B08D57" stroke-width="1.5" fill="none" />
+  <rect x="24" y="24" width="752" height="452" rx="6" stroke="#B08D57" stroke-width="0.75" stroke-dasharray="4 4" fill="none" />
+  <circle cx="400" cy="200" r="48" fill="#701F2B" fill-opacity="0.1" stroke="#B08D57" stroke-width="1.5" />
+  <path d="M400 176C392 192 394 208 400 218C406 208 408 192 400 176Z" fill="#B08D57" />
+  <text x="400" y="280" text-anchor="middle" fill="#701F2B" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="600" letter-spacing="1.5">Chapter 04: Important Milestones</text>
+  <text x="400" y="315" text-anchor="middle" fill="#3F352F" font-family="'Inter', sans-serif" font-size="14">Dreams, Careers & Growing Together</text>
+  <text x="400" y="350" text-anchor="middle" fill="#826437" font-family="'Inter', sans-serif" font-size="12" letter-spacing="1">STORY PHOTO PLACEHOLDER</text>
+</svg>

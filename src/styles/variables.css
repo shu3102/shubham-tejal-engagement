@@ -1,0 +1,59 @@
+:root {
+  /* Core Royal Maharashtrian Palette */
+  --color-ivory: #F7F2E8;
+  --color-ivory-light: #FDFBF7;
+  --color-ivory-dark: #EDE5D4;
+  --color-ivory-card: #FFFFFF;
+
+  --color-gold: #B08D57;
+  --color-gold-light: #D4B886;
+  --color-gold-pale: #EFE4D0;
+  --color-gold-dark: #826437;
+  --color-gold-border: rgba(176, 141, 87, 0.4);
+
+  --color-maroon: #701F2B;
+  --color-maroon-deep: #4F131D;
+  --color-maroon-light: #94303F;
+  --color-maroon-soft: rgba(112, 31, 43, 0.08);
+
+  --color-charcoal: #3F352F;
+  --color-charcoal-muted: #64564E;
+  --color-charcoal-light: #8E7E74;
+
+  /* Typography */
+  --font-heading-en: 'Cormorant Garamond', Georgia, serif;
+  --font-body-en: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading-mr: 'Noto Serif Devanagari', 'Cormorant Garamond', Georgia, serif;
+  --font-body-mr: 'Noto Sans Devanagari', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Active Font Variables (swapped via [lang="mr"]) */
+  --font-heading: var(--font-heading-en);
+  --font-body: var(--font-body-en);
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 2px 8px rgba(63, 53, 47, 0.06);
+  --shadow-md: 0 6px 20px rgba(63, 53, 47, 0.09);
+  --shadow-lg: 0 14px 34px rgba(63, 53, 47, 0.12);
+  --shadow-gold: 0 8px 24px rgba(176, 141, 87, 0.25);
+  --shadow-maroon: 0 8px 24px rgba(112, 31, 43, 0.2);
+
+  /* Border Radii */
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.2, 0, 0, 1);
+  --transition-normal: 0.35s cubic-bezier(0.2, 0, 0, 1);
+  --transition-slow: 0.6s cubic-bezier(0.2, 0, 0, 1);
+
+  /* Container */
+  --max-width: 1200px;
+  --header-height: 72px;
+}
+
+[lang="mr"] {
+  --font-heading: var(--font-heading-mr);
+  --font-body: var(--font-body-mr);
+}

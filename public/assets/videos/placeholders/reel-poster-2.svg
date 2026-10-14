@@ -1,0 +1,18 @@
+<svg width="540" height="960" viewBox="0 0 540 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_reel-poster-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3F352F" />
+      <stop offset="40%" stop-color="#701F2B" />
+      <stop offset="100%" stop-color="#4F131D" />
+    </linearGradient>
+  </defs>
+  <rect width="540" height="960" fill="url(#bg_reel-poster-2)" />
+  <rect x="20" y="20" width="500" height="920" rx="14" stroke="#B08D57" stroke-width="2" fill="none" />
+  <!-- Video Reel Play Button Graphic -->
+  <circle cx="270" cy="440" r="50" fill="#B08D57" fill-opacity="0.3" stroke="#D4B886" stroke-width="2" />
+  <path d="M260 415L290 440L260 465V415Z" fill="#F7F2E8" />
+  <text x="270" y="540" text-anchor="middle" fill="#F7F2E8" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="600" letter-spacing="1.5">Cinematic Montage</text>
+  <text x="270" y="580" text-anchor="middle" fill="#D4B886" font-family="'Inter', sans-serif" font-size="14">9:16 Vertical Video Placeholder</text>
+  <text x="270" y="620" text-anchor="middle" fill="#F7F2E8" fill-opacity="0.75" font-family="'Inter', sans-serif" font-size="13">Replace with .mp4 video file in public/assets/videos/</text>
+  <text x="270" y="650" text-anchor="middle" fill="#B08D57" font-family="'Inter', sans-serif" font-size="12">Aspect ratio: 9:16 (1080 × 1920 px)</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="700" height="850" viewBox="0 0 700 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_gallery-5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F131D" />
+      <stop offset="60%" stop-color="#701F2B" />
+      <stop offset="100%" stop-color="#3F352F" />
+    </linearGradient>
+  </defs>
+  <rect width="700" height="850" fill="url(#bg_gallery-5)" />
+  <rect x="24" y="24" width="652" height="802" rx="8" stroke="#B08D57" stroke-width="1.5" fill="none" />
+  <rect x="32" y="32" width="636" height="786" rx="6" stroke="#D4B886" stroke-width="0.75" stroke-opacity="0.5" fill="none" />
+  <circle cx="350" cy="380" r="64" fill="#B08D57" fill-opacity="0.2" stroke="#B08D57" stroke-width="2" />
+  <!-- Lotus Icon -->
+  <path d="M350 345C340 365 342 385 350 398C358 385 360 365 350 345Z" fill="#D4B886" />
+  <text x="350" y="490" text-anchor="middle" fill="#F7F2E8" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="600" letter-spacing="2">Candid Joy</text>
+  <text x="350" y="530" text-anchor="middle" fill="#D4B886" font-family="'Inter', sans-serif" font-size="15">Laughter & Pure Moments</text>
+  <text x="350" y="570" text-anchor="middle" fill="#F7F2E8" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="13">GALLERY PHOTOGRAPH PLACEHOLDER</text>
+  <text x="350" y="600" text-anchor="middle" fill="#B08D57" font-family="'Inter', sans-serif" font-size="12">Click to enlarge in Lightbox preview</text>
+</svg>
