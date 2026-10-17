@@ -99,7 +99,6 @@ A bilingual, luxury digital invitation website created for the traditional Mahar
 │   │   ├── StorySection.tsx         # Love story timeline from college to Sakharpuda
 │   │   ├── GallerySection.tsx       # Photo gallery with category filtering
 │   │   ├── ReelsSection.tsx         # 3 vertical video reels
-│   │   ├── SakharpudaSection.tsx    # Traditional Maharashtrian ceremony significance
 │   │   ├── BlessingsSection.tsx     # Family blessings quote & acknowledgment
 │   │   ├── EventDetailsSection.tsx  # Date, time, venue address, directions & .ics
 │   │   ├── RsvpSection.tsx          # WhatsApp RSVP with prefilled bilingual messages

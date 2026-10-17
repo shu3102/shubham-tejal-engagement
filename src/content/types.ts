@@ -73,12 +73,6 @@ export interface EventConfig {
     en: string;
     mr: string;
   };
-  ceremony: {
-    nameEn: string;
-    nameMr: string;
-    typeEn: string;
-    typeMr: string;
-  };
   date: {
     fullDateEn: string;
     fullDateMr: string;
@@ -128,7 +122,6 @@ export interface Translations {
     story: string;
     gallery: string;
     reels: string;
-    ceremony: string;
     blessings: string;
     details: string;
     rsvp: string;
@@ -186,17 +179,6 @@ export interface Translations {
     playReel: string;
     pauseReel: string;
     notAvailableNote: string;
-  };
-  ceremony: {
-    sectionTag: string;
-    sectionTitle: string;
-    sectionSubtitle: string;
-    meaningTitle: string;
-    meaningBody: string;
-    ritualsTitle: string;
-    ritualsBody: string;
-    significanceTitle: string;
-    significanceBody: string;
   };
   blessings: {
     sectionTag: string;

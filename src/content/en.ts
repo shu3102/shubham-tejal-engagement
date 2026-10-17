@@ -7,7 +7,6 @@ export const enTranslations: Translations = {
     story: 'Our Story',
     gallery: 'Gallery',
     reels: 'Reels',
-    ceremony: 'Sakharpuda',
     blessings: 'Blessings',
     details: 'Event Details',
     rsvp: 'RSVP',
@@ -76,22 +75,8 @@ export const enTranslations: Translations = {
     notAvailableNote: 'Reels are currently in post-production and will be available prior to final launch.',
   },
 
-  ceremony: {
-    sectionTag: 'Sacred Ritual',
-    sectionTitle: 'The Essence of Sakharpuda',
-    sectionSubtitle: 'A timeless Maharashtrian tradition formalizing the sacred union of two families.',
-    meaningTitle: 'The Sweetness of Promise',
-    meaningBody:
-      'Sakharpuda (literally "sugar packet") is the traditional Maharashtrian engagement ceremony. The customary exchange of sugar symbolizes infusing the upcoming marriage and mutual relationship with lifelong sweetness, warmth, and goodwill.',
-    ritualsTitle: 'Auspicious Shagun & Shringar',
-    ritualsBody:
-      'The groom’s family lovingly presents the bride with a traditional saree, green glass bangles, shagun, and ornaments. In return, the bride’s family honours the groom with traditional tokens of respect and blessings.',
-    significanceTitle: 'Two Families as One',
-    significanceBody:
-      'More than an individual promise, Sakharpuda marks the formal uniting of two families. With prayers to the almighty and blessings from the elders, the date and intent of marriage are celebrated with pure joy.',
-  },
-
   blessings: {
+
     sectionTag: 'Family Blessings',
     sectionTitle: 'Blessings & Well Wishes',
     sectionSubtitle: 'Wrapped in the warmth, prayers, and unconditional love of our parents and elders.',

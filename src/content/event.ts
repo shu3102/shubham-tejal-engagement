@@ -37,13 +37,6 @@ export const eventConfig: EventConfig = {
     mr: 'शुभम आणि तेजल',
   },
 
-  ceremony: {
-    nameEn: 'Traditional Maharashtrian Sakharpuda',
-    nameMr: 'पारंपरिक महाराष्ट्रीयन साखरपुडा',
-    typeEn: 'Engagement Ceremony',
-    typeMr: 'साखरपुडा सोहळा',
-  },
-
   date: {
     fullDateEn: 'Saturday, 12 December 2026',
     fullDateMr: 'शनिवार, १२ डिसेंबर २०२६',

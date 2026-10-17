@@ -13,9 +13,6 @@ export const HeroSection: React.FC = () => {
   const coupleNames =
     lang === 'mr' ? eventConfig.displayCoupleNames.mr : eventConfig.displayCoupleNames.en;
 
-  const ceremonyName =
-    lang === 'mr' ? eventConfig.ceremony.nameMr : eventConfig.ceremony.nameEn;
-
   const fullDate =
     lang === 'mr' ? eventConfig.date.fullDateMr : eventConfig.date.fullDateEn;
 
@@ -98,8 +95,9 @@ export const HeroSection: React.FC = () => {
             }}
           >
             <Sparkles size={16} style={{ color: 'var(--color-gold)' }} />
-            <span>{ceremonyName}</span>
+            <span>{t.hero.ceremonyTitle}</span>
           </div>
+
 
           {/* Main Couple Names */}
           <h1
