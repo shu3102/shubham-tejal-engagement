@@ -3,11 +3,9 @@ name: Deploy Invitation to GitHub Pages
 on:
   # Manual trigger: allows Shubham & Tejal to deploy ONLY after explicit final approval
   workflow_dispatch:
-
-  # Uncomment the lines below after final approval to enable auto-deployment on push to main:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
