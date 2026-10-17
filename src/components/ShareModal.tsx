@@ -34,7 +34,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose }) => {
 
   const shareMessage =
     lang === 'mr'
-      ? `॥ श्री गणेशाय नमः ॥\n*${shareTitle}*\n\nसस्नेह निमंत्रण! शुभम सोमवंशी आणि तेजल खैरnar यांच्या पारंपरिक साखरपुडा सोहळ्यास आपण सपरिवार उपस्थित राहून शुभाशीर्वाद द्यावेत ही नम्र विनंती.\n\nदिनांक: शनिवार, १२ डिसेंबर २०२६\nस्थळ: यशवंत लॉन्स, नाशिक\n\nआमंत्रण पत्रिका पाहण्यासाठी खालील लिंकवर क्लिक करा:`
+      ? `॥ श्री गणेशाय नमः ॥\n*${shareTitle}*\n\nसस्नेह निमंत्रण! शुभम सोमवंशी आणि तेजल खैरनार यांच्या पारंपरिक साखरपुडा सोहळ्यास आपण सपरिवार उपस्थित राहून शुभाशीर्वाद द्यावेत ही नम्र विनंती.\n\nदिनांक: शनिवार, १२ डिसेंबर २०२६\nस्थळ: यशवंत लॉन्स, नाशिक\n\nआमंत्रण पत्रिका पाहण्यासाठी खालील लिंकवर क्लिक करा:`
       : `॥ Shri Ganeshaya Namah ॥\n*${shareTitle}*\n\nYou are cordially invited to celebrate the traditional Maharashtrian Sakharpuda of Shubham Somwanshi & Tejal Khairnar.\n\nDate: Saturday, 12 December 2026\nVenue: Yashwant Lawns, Nashik\n\nView the invitation:`;
 
 

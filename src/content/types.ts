@@ -57,8 +57,12 @@ export interface EventConfig {
     shortNameEn: string;
     shortNameMr: string;
     image: string;
-    aboutPlaceholderEn: string;
-    aboutPlaceholderMr: string;
+    introEn: string;
+    introMr: string;
+    bioEn: string;
+    bioMr: string;
+    aboutPlaceholderEn?: string;
+    aboutPlaceholderMr?: string;
   };
   bride: {
     fullNameEn: string;
@@ -66,8 +70,12 @@ export interface EventConfig {
     shortNameEn: string;
     shortNameMr: string;
     image: string;
-    aboutPlaceholderEn: string;
-    aboutPlaceholderMr: string;
+    introEn: string;
+    introMr: string;
+    bioEn: string;
+    bioMr: string;
+    aboutPlaceholderEn?: string;
+    aboutPlaceholderMr?: string;
   };
   displayCoupleNames: {
     en: string;

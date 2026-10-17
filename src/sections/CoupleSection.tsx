@@ -3,7 +3,6 @@ import { useLanguage } from '../hooks/useLanguage';
 import { eventConfig } from '../content/event';
 import { getAssetUrl } from '../utils/assetUrl';
 import { LotusMotif, RoyalCornerOrnament } from '../components/Motifs';
-import { Info } from 'lucide-react';
 
 export const CoupleSection: React.FC = () => {
   const { lang, t } = useLanguage();
@@ -11,10 +10,11 @@ export const CoupleSection: React.FC = () => {
   const groomName = lang === 'mr' ? eventConfig.groom.fullNameMr : eventConfig.groom.fullNameEn;
   const brideName = lang === 'mr' ? eventConfig.bride.fullNameMr : eventConfig.bride.fullNameEn;
 
-  const groomBio =
-    lang === 'mr' ? eventConfig.groom.aboutPlaceholderMr : eventConfig.groom.aboutPlaceholderEn;
-  const brideBio =
-    lang === 'mr' ? eventConfig.bride.aboutPlaceholderMr : eventConfig.bride.aboutPlaceholderEn;
+  const groomIntro = lang === 'mr' ? eventConfig.groom.introMr : eventConfig.groom.introEn;
+  const brideIntro = lang === 'mr' ? eventConfig.bride.introMr : eventConfig.bride.introEn;
+
+  const groomBio = lang === 'mr' ? eventConfig.groom.bioMr : eventConfig.groom.bioEn;
+  const brideBio = lang === 'mr' ? eventConfig.bride.bioMr : eventConfig.bride.bioEn;
 
   return (
     <section id="couple" className="section section-alt">
@@ -46,12 +46,14 @@ export const CoupleSection: React.FC = () => {
           <div
             className="royal-frame"
             style={{
-              padding: '2rem',
+              padding: '2.25rem 2rem',
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
               position: 'relative',
               backgroundColor: '#FFFFFF',
+              border: '1.5px solid var(--color-gold)',
+              boxShadow: 'var(--shadow-md)',
             }}
           >
             <div style={{ position: 'absolute', top: '8px', left: '8px' }}>
@@ -62,7 +64,7 @@ export const CoupleSection: React.FC = () => {
             </div>
 
             <div>
-              {/* Portrait Image Placeholder */}
+              {/* Portrait Image */}
               <div
                 style={{
                   borderRadius: 'var(--radius-sm)',
@@ -95,7 +97,7 @@ export const CoupleSection: React.FC = () => {
                   textTransform: 'uppercase',
                   letterSpacing: '0.12em',
                   color: 'var(--color-gold-dark)',
-                  marginBottom: '0.4rem',
+                  marginBottom: '0.35rem',
                 }}
               >
                 {t.couple.groomRole}
@@ -107,28 +109,41 @@ export const CoupleSection: React.FC = () => {
                   fontSize: '1.85rem',
                   color: 'var(--color-maroon-deep)',
                   fontFamily: 'var(--font-heading)',
-                  marginBottom: '1rem',
+                  marginBottom: '0.35rem',
                 }}
               >
                 {groomName}
               </h3>
 
-              {/* Groom Bio Placeholder Notice */}
+              {/* Quick Introduction Subtitle */}
+              <div
+                style={{
+                  display: 'inline-block',
+                  fontSize: '0.86rem',
+                  fontWeight: 600,
+                  color: 'var(--color-maroon)',
+                  backgroundColor: 'rgba(176, 141, 87, 0.12)',
+                  border: '1px solid rgba(176, 141, 87, 0.35)',
+                  padding: '0.3rem 0.75rem',
+                  borderRadius: '20px',
+                  marginBottom: '1rem',
+                  lineHeight: 1.4,
+                }}
+              >
+                {groomIntro}
+              </div>
+
+              {/* Short Biography */}
               <p
                 style={{
-                  fontSize: '0.94rem',
-                  color: 'var(--color-charcoal-muted)',
-                  lineHeight: 1.7,
-                  fontStyle: 'italic',
+                  fontSize: '0.96rem',
+                  color: 'var(--color-charcoal)',
+                  lineHeight: 1.8,
+                  textAlign: 'justify',
                 }}
               >
                 {groomBio}
               </p>
-            </div>
-
-            <div className="placeholder-notice" style={{ marginTop: '1.5rem' }}>
-              <Info size={16} style={{ color: 'var(--color-gold)', flexShrink: 0, marginTop: '2px' }} />
-              <span>{t.couple.placeholderNote}</span>
             </div>
           </div>
 
@@ -136,12 +151,14 @@ export const CoupleSection: React.FC = () => {
           <div
             className="royal-frame"
             style={{
-              padding: '2rem',
+              padding: '2.25rem 2rem',
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
               position: 'relative',
               backgroundColor: '#FFFFFF',
+              border: '1.5px solid var(--color-gold)',
+              boxShadow: 'var(--shadow-md)',
             }}
           >
             <div style={{ position: 'absolute', top: '8px', left: '8px' }}>
@@ -152,7 +169,7 @@ export const CoupleSection: React.FC = () => {
             </div>
 
             <div>
-              {/* Portrait Image Placeholder */}
+              {/* Portrait Image */}
               <div
                 style={{
                   borderRadius: 'var(--radius-sm)',
@@ -185,7 +202,7 @@ export const CoupleSection: React.FC = () => {
                   textTransform: 'uppercase',
                   letterSpacing: '0.12em',
                   color: 'var(--color-gold-dark)',
-                  marginBottom: '0.4rem',
+                  marginBottom: '0.35rem',
                 }}
               >
                 {t.couple.brideRole}
@@ -197,28 +214,41 @@ export const CoupleSection: React.FC = () => {
                   fontSize: '1.85rem',
                   color: 'var(--color-maroon-deep)',
                   fontFamily: 'var(--font-heading)',
-                  marginBottom: '1rem',
+                  marginBottom: '0.35rem',
                 }}
               >
                 {brideName}
               </h3>
 
-              {/* Bride Bio Placeholder Notice */}
+              {/* Quick Introduction Subtitle */}
+              <div
+                style={{
+                  display: 'inline-block',
+                  fontSize: '0.86rem',
+                  fontWeight: 600,
+                  color: 'var(--color-maroon)',
+                  backgroundColor: 'rgba(176, 141, 87, 0.12)',
+                  border: '1px solid rgba(176, 141, 87, 0.35)',
+                  padding: '0.3rem 0.75rem',
+                  borderRadius: '20px',
+                  marginBottom: '1rem',
+                  lineHeight: 1.4,
+                }}
+              >
+                {brideIntro}
+              </div>
+
+              {/* Short Biography */}
               <p
                 style={{
-                  fontSize: '0.94rem',
-                  color: 'var(--color-charcoal-muted)',
-                  lineHeight: 1.7,
-                  fontStyle: 'italic',
+                  fontSize: '0.96rem',
+                  color: 'var(--color-charcoal)',
+                  lineHeight: 1.8,
+                  textAlign: 'justify',
                 }}
               >
                 {brideBio}
               </p>
-            </div>
-
-            <div className="placeholder-notice" style={{ marginTop: '1.5rem' }}>
-              <Info size={16} style={{ color: 'var(--color-gold)', flexShrink: 0, marginTop: '2px' }} />
-              <span>{t.couple.placeholderNote}</span>
             </div>
           </div>
         </div>
