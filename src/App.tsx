@@ -6,8 +6,9 @@ import { FloatingActions } from './components/FloatingActions';
 import { InvocationSection } from './sections/InvocationSection';
 import { HeroSection } from './sections/HeroSection';
 import { CoupleSection } from './sections/CoupleSection';
-import { StorySection } from './sections/StorySection';
+// import { StorySection } from './sections/StorySection';
 import { GallerySection } from './sections/GallerySection';
+
 import { ReelsSection } from './sections/ReelsSection';
 import { BlessingsSection } from './sections/BlessingsSection';
 import { EventDetailsSection } from './sections/EventDetailsSection';
@@ -27,8 +28,9 @@ export const AppContent: React.FC = () => {
         <InvocationSection />
         <HeroSection />
         <CoupleSection />
-        <StorySection />
+        {/* <StorySection /> */}
         <GallerySection />
+
         <ReelsSection />
         <BlessingsSection />
 

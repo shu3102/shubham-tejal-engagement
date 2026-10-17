@@ -25,8 +25,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenShare }) => {
   const navLinks = [
     { href: '#hero', label: t.nav.invitation },
     { href: '#couple', label: t.nav.couple },
-    { href: '#story', label: t.nav.story },
+    // { href: '#story', label: t.nav.story },
     { href: '#gallery', label: t.nav.gallery },
+
     { href: '#reels', label: t.nav.reels },
     { href: '#blessings', label: t.nav.blessings },
     { href: '#details', label: t.nav.details },
