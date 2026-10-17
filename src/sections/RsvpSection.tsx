@@ -10,10 +10,7 @@ export const RsvpSection: React.FC = () => {
 
   const isConfigured = hasValidWhatsAppNumber(eventConfig.rsvp.whatsappNumber);
 
-  const prefilledMessage =
-    lang === 'mr'
-      ? `नमस्कार! शुभम आणि तेजल यांच्या साखरपुड्याचे आमंत्रण मिळाले. आम्ही शनिवार, १२ डिसेंबर २०२६ रोजी यशवंत लॉन्स, नाशिक येथील सोहळ्यास नक्की उपस्थित राहू!`
-      : `Namaskar! We received the Sakharpuda invitation for Shubham & Tejal. We look forward to attending and giving our blessings on Saturday, 12 December 2026 at Yashwant Lawns, Nashik!`;
+  const prefilledMessage = t.rsvp.prefilledMessage;
 
   const whatsappUrl = isConfigured
     ? formatWhatsAppUrl(eventConfig.rsvp.whatsappNumber, prefilledMessage)

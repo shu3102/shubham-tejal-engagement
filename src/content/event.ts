@@ -65,18 +65,16 @@ export const eventConfig: EventConfig = {
      * When left empty or set to '#', the UI renders a graceful "Awaiting Google Maps link" state.
      * Example once confirmed: 'https://maps.google.com/?q=Yashwant+Lawns+Nashik'
      */
-    googleMapsUrl: '',
+    googleMapsUrl: 'https://maps.app.goo.gl/ucuLXympjUwdLWkX8',
     embedMapUrl: '',
   },
 
   rsvp: {
     /**
      * WhatsApp RSVP Phone Number:
-     * Leave empty string until provided by the couple.
-     * When empty, a clear labeled placeholder message is displayed to avoid exposing fake/real phone numbers.
      * Format when provided: '+919XXXXXXXXX'
      */
-    whatsappNumber: '',
+    whatsappNumber: '+917741085675',
     contactPersonEn: 'Somwanshi & Khairnar Family',
     contactPersonMr: 'सोमवंशी व खैरnar परिवार',
   },

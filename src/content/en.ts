@@ -101,7 +101,7 @@ export const enTranslations: Translations = {
     placeholderNotice:
       'WhatsApp RSVP number is currently being configured and will be active prior to invitation distribution.',
     prefilledMessage:
-      'Namaskar! We received the Sakharpuda invitation for Shubham & Tejal. We look forward to attending and giving our blessings on Saturday, 12 December 2026!',
+      'Congratulations Shubham & Tejal! 🎉 We received your invitation and are so happy to confirm that we are coming to celebrate with you on Saturday, 12 December 2026 at Yashwant Lawns, Nashik!',
   },
 
   share: {
