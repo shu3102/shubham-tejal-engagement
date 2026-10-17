@@ -148,7 +148,7 @@ export const HeroSection: React.FC = () => {
             }}
           >
             <img
-              src={getAssetUrl('assets/images/placeholders/hero-placeholder.jpg')}
+              src={getAssetUrl('assets/images/placeholders/hero-placeholder.png')}
               alt="Shubham & Tejal Couple Portrait Placeholder"
               style={{
                 width: '100%',
