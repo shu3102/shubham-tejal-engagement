@@ -122,9 +122,9 @@ export interface Translations {
     story: string;
     gallery: string;
     reels: string;
-    blessings: string;
     details: string;
     rsvp: string;
+
   };
   invocation: {
     mantra: string;
@@ -180,15 +180,8 @@ export interface Translations {
     pauseReel: string;
     notAvailableNote: string;
   };
-  blessings: {
-    sectionTag: string;
-    sectionTitle: string;
-    sectionSubtitle: string;
-    blessingQuote: string;
-    fromFamilies: string;
-    placeholderNotice: string;
-  };
   details: {
+
     sectionTag: string;
     sectionTitle: string;
     sectionSubtitle: string;

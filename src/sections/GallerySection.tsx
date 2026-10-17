@@ -30,7 +30,7 @@ export const GallerySection: React.FC = () => {
 
     const timer = setInterval(() => {
       nextSlide();
-    }, 1000);
+    }, 2000);
 
     return () => clearInterval(timer);
   }, [isAutoPlaying, activeLightboxIndex, isHovered, nextSlide]);

@@ -13,7 +13,7 @@ export const eventConfig: EventConfig = {
     fullNameMr: 'शुभम सोमवंशी',
     shortNameEn: 'Shubham',
     shortNameMr: 'शुभम',
-    image: './assets/images/placeholders/shubham-portrait.svg',
+    image: './assets/images/placeholders/shubham-portrait.png',
     aboutPlaceholderEn:
       '[Add Groom’s introduction here — Shubham Somwanshi. This field will be updated once personal bio is provided.]',
     aboutPlaceholderMr:
@@ -25,7 +25,7 @@ export const eventConfig: EventConfig = {
     fullNameMr: 'तेजल खैरnar',
     shortNameEn: 'Tejal',
     shortNameMr: 'तेजल',
-    image: './assets/images/placeholders/tejal-portrait.svg',
+    image: './assets/images/placeholders/tejal-portrait.png',
     aboutPlaceholderEn:
       '[Add Bride’s introduction here — Tejal Khairnar. This field will be updated once personal bio is provided.]',
     aboutPlaceholderMr:

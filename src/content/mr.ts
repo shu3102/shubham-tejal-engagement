@@ -7,7 +7,6 @@ export const mrTranslations: Translations = {
     story: 'आमची गोष्ट',
     gallery: 'छायाचित्रे',
     reels: 'रील्स',
-    blessings: 'आशीर्वाद',
     details: 'तपशील',
     rsvp: 'उपस्थिती (RSVP)',
   },
@@ -73,18 +72,6 @@ export const mrTranslations: Translations = {
     playReel: 'व्हिडिओ सुरू करा',
     pauseReel: 'व्हिडिओ थांबवा',
     notAvailableNote: 'व्हिडिओ सध्या निर्मिती प्रक्रियेत असून लवकरच उपलब्ध होतील.',
-  },
-
-  blessings: {
-
-    sectionTag: 'कौटुंबिक आशीर्वाद',
-    sectionTitle: 'शुभाशीर्वाद आणि सदिच्छा',
-    sectionSubtitle: 'आई-वडिलांचे अखंड प्रेम आणि वडीलधाऱ्यांच्या आशीर्वादाची पवित्र सावली.',
-    blessingQuote:
-      '“तुमचा सहप्रवास अखंड प्रेमाने, समजुतीने, संवादाने आणि आपल्या समृद्ध संस्कृतीच्या सुगंधाने निरंतर दरवळत राहो, हीच ईश्वरचरणी प्रार्थना.”',
-    fromFamilies: 'सोमवंशी व खैरnar परिवार',
-    placeholderNotice:
-      '[कुटुंबीयांचे आशीर्वाद आणि संदेश अंतिम मान्यतेनंतर येथे समाविष्ट केले जातील.]',
   },
 
   details: {

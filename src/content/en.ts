@@ -7,9 +7,9 @@ export const enTranslations: Translations = {
     story: 'Our Story',
     gallery: 'Gallery',
     reels: 'Reels',
-    blessings: 'Blessings',
     details: 'Event Details',
     rsvp: 'RSVP',
+
   },
 
   invocation: {
@@ -75,19 +75,8 @@ export const enTranslations: Translations = {
     notAvailableNote: 'Reels are currently in post-production and will be available prior to final launch.',
   },
 
-  blessings: {
-
-    sectionTag: 'Family Blessings',
-    sectionTitle: 'Blessings & Well Wishes',
-    sectionSubtitle: 'Wrapped in the warmth, prayers, and unconditional love of our parents and elders.',
-    blessingQuote:
-      '“May your companionship be blessed with the strength of Maharashtrian tradition, the sweetness of mutual respect, and abundant joy across every chapter of life.”',
-    fromFamilies: 'With love and blessings from Somwanshi & Khairnar Families',
-    placeholderNotice:
-      '[Awaiting final family-approved blessing message. This section is ready for the family’s personal words.]',
-  },
-
   details: {
+
     sectionTag: 'Event Details',
     sectionTitle: 'Ceremony & Venue',
     sectionSubtitle: 'All the essential details to help you join and celebrate with us in Nashik.',

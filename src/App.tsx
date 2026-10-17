@@ -10,8 +10,8 @@ import { CoupleSection } from './sections/CoupleSection';
 import { GallerySection } from './sections/GallerySection';
 
 import { ReelsSection } from './sections/ReelsSection';
-import { BlessingsSection } from './sections/BlessingsSection';
 import { EventDetailsSection } from './sections/EventDetailsSection';
+
 import { RsvpSection } from './sections/RsvpSection';
 import { FooterSection } from './sections/FooterSection';
 
@@ -32,9 +32,8 @@ export const AppContent: React.FC = () => {
         <GallerySection />
 
         <ReelsSection />
-        <BlessingsSection />
-
         <EventDetailsSection />
+
         <RsvpSection />
       </main>
 

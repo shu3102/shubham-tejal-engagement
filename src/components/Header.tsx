@@ -29,9 +29,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenShare }) => {
     { href: '#gallery', label: t.nav.gallery },
 
     { href: '#reels', label: t.nav.reels },
-    { href: '#blessings', label: t.nav.blessings },
     { href: '#details', label: t.nav.details },
     { href: '#rsvp', label: t.nav.rsvp },
+
   ];
 
   const coupleShortNames =

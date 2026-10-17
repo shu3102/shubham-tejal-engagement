@@ -13,7 +13,7 @@ export const CountdownTimer: React.FC = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeRemaining(eventConfig.date.targetIsoTimestamp));
-    }, 1000);
+    }, 2000);
 
     return () => clearInterval(timer);
   }, []);
