@@ -232,10 +232,11 @@ export const GallerySection: React.FC = () => {
 
                     {/* Image Area */}
                     <div
+                      className="card-image-box"
                       style={{
                         position: 'relative',
                         width: '100%',
-                        height: '295px',
+                        height: '100%',
                         borderRadius: 'var(--radius-sm)',
                         overflow: 'hidden',
                         backgroundColor: '#1E1214',
@@ -302,33 +303,6 @@ export const GallerySection: React.FC = () => {
                         </div>
                       )}
                     </div>
-
-                    {/* Card Title */}
-                    <div
-                      style={{
-                        paddingTop: '0.65rem',
-                        textAlign: 'center',
-                        flexGrow: 1,
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                      }}
-                    >
-                      <h3
-                        style={{
-                          fontSize: '1.15rem',
-                          fontFamily: 'var(--font-heading)',
-                          color: 'var(--color-maroon-deep)',
-                          fontWeight: 600,
-                          whiteSpace: 'nowrap',
-                          overflow: 'hidden',
-                          textOverflow: 'ellipsis',
-                          margin: 0,
-                        }}
-                      >
-                        {itemTitle}
-                      </h3>
-                    </div>
                   </div>
                 </div>
               );
@@ -339,7 +313,12 @@ export const GallerySection: React.FC = () => {
           <div
             style={{
               textAlign: 'center',
-              marginTop: '1rem',
+              marginTop: '1.15rem',
+              minHeight: '2.4rem',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '0 1rem',
             }}
           >
             <div
@@ -349,6 +328,7 @@ export const GallerySection: React.FC = () => {
                 color: 'var(--color-maroon-deep)',
                 fontWeight: 600,
                 letterSpacing: '0.02em',
+                lineHeight: 1.35,
               }}
             >
               {activeTitle}
@@ -496,8 +476,8 @@ export const GallerySection: React.FC = () => {
             height: 330px !important;
             margin-left: -130px !important;
           }
-          .stack-card .royal-frame > div:first-of-type {
-            height: 240px !important;
+          .stack-card .royal-frame .card-image-box {
+            height: 100% !important;
           }
         }
         .stack-card.is-front:hover {
