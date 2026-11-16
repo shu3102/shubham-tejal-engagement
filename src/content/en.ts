@@ -12,14 +12,15 @@ export const enTranslations: Translations = {
 
   invocation: {
     mantra: '॥ श्री गणेशाय नमः ॥',
-    subtitle: 'With the divine blessings of Lord Ganesha and our beloved elders, we embark on this sacred journey together.',
+    subtitle:
+      'With the blessings of Lord Ganesha and the love of our cherished elders, we begin a beautiful new chapter of togetherness, love, and lifelong commitment.',
   },
 
   hero: {
     tagline: 'Two Hearts. Two Families. One Beautiful Beginning.',
     subTagline:
-      'With hearts full of gratitude and love, Shubham Somwanshi & Tejal Khairnar joyfully invite you to grace their traditional Sakharpuda ceremony.',
-    ceremonyTitle: 'Maharashtrian Sakharpuda Ceremony',
+      'With hearts full of gratitude and love, We cordially invite you to grace our engagement ceremony.',
+    ceremonyTitle: 'Engagement Ceremony',
     exploreBtn: 'Explore Invitation',
     saveDateBtn: 'Add to Calendar',
   },
@@ -36,7 +37,8 @@ export const enTranslations: Translations = {
   couple: {
     sectionTag: 'The Couple',
     sectionTitle: 'Meet Shubham & Tejal',
-    sectionSubtitle: 'A bond cultivated through shared laughter, mutual trust, and the warm blessings of our families.',
+    sectionSubtitle:
+      '“A bond nurtured through shared laughter, unwavering trust, and a love that grows stronger with every passing moment.”',
     groomRole: 'The Groom',
     brideRole: 'The Bride',
     placeholderNote: '[Personal biography & memories will be updated here once provided.]',

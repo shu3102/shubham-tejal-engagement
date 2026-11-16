@@ -205,7 +205,7 @@ export const Lightbox: React.FC<LightboxProps> = ({
           <span
             style={{
               display: 'inline-block',
-              padding: '2px 10px',
+              padding: '3px 12px',
               borderRadius: 'var(--radius-full)',
               background: 'rgba(176, 141, 87, 0.25)',
               border: '1px solid var(--color-gold)',
@@ -216,7 +216,7 @@ export const Lightbox: React.FC<LightboxProps> = ({
               marginBottom: '0.4rem',
             }}
           >
-            {categoryLabel} • {currentIndex + 1} / {items.length}
+            {categoryLabel ? `${categoryLabel} • ` : ''}Photo {currentIndex + 1} of {items.length}
           </span>
           <h3
             style={{
@@ -228,7 +228,7 @@ export const Lightbox: React.FC<LightboxProps> = ({
           >
             {title}
           </h3>
-          {caption && (
+          {caption && !caption.startsWith('[Placeholder') && (
             <p
               style={{
                 fontSize: '0.9rem',

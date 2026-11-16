@@ -38,8 +38,6 @@ export const GallerySection: React.FC = () => {
 
   const currentItem = galleryItems[activeIndex];
   const activeTitle = lang === 'mr' ? currentItem.titleMr : currentItem.titleEn;
-  const activeCategory = lang === 'mr' ? currentItem.categoryLabelMr : currentItem.categoryLabelEn;
-  const activeCaption = lang === 'mr' ? currentItem.captionMr : currentItem.captionEn;
 
   // Touch handlers for mobile swipe
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -76,11 +74,6 @@ export const GallerySection: React.FC = () => {
             <LotusMotif size={28} />
             <div className="divider-line" />
           </div>
-          <p className="section-subtitle">
-            {lang === 'mr'
-              ? '६ छायाचित्रांचा फिरणारा 3D स्टॅक • दर सेकंदाला आपोआप बदलणारा • मोठा करून पाहण्यासाठी टॅप करा'
-              : 'Continuous 6-card rotating 3D stack • Auto-advances every 1 second • Tap any photo to enlarge'}
-          </p>
         </div>
 
         {/* 3D Stack Stage Container */}
@@ -310,38 +303,27 @@ export const GallerySection: React.FC = () => {
                       )}
                     </div>
 
-                    {/* Card Title & Category */}
+                    {/* Card Title */}
                     <div
                       style={{
-                        paddingTop: '0.75rem',
+                        paddingTop: '0.65rem',
                         textAlign: 'center',
                         flexGrow: 1,
                         display: 'flex',
-                        flexDirection: 'column',
+                        alignItems: 'center',
                         justifyContent: 'center',
                       }}
                     >
-                      <span
-                        style={{
-                          fontSize: '0.74rem',
-                          textTransform: 'uppercase',
-                          letterSpacing: '0.1em',
-                          color: 'var(--color-gold-dark)',
-                          fontWeight: 600,
-                          marginBottom: '2px',
-                        }}
-                      >
-                        {lang === 'mr' ? item.categoryLabelMr : item.categoryLabelEn}
-                      </span>
                       <h3
                         style={{
-                          fontSize: '1.2rem',
+                          fontSize: '1.15rem',
                           fontFamily: 'var(--font-heading)',
                           color: 'var(--color-maroon-deep)',
                           fontWeight: 600,
                           whiteSpace: 'nowrap',
                           overflow: 'hidden',
                           textOverflow: 'ellipsis',
+                          margin: 0,
                         }}
                       >
                         {itemTitle}
@@ -353,50 +335,24 @@ export const GallerySection: React.FC = () => {
             })}
           </div>
 
-          {/* Active Card Info Details */}
+          {/* Active Card Title */}
           <div
             style={{
               textAlign: 'center',
-              marginTop: '1.25rem',
-              minHeight: '48px',
+              marginTop: '1rem',
             }}
           >
-            <span
-              style={{
-                display: 'inline-block',
-                fontSize: '0.75rem',
-                textTransform: 'uppercase',
-                letterSpacing: '0.12em',
-                color: 'var(--color-gold-dark)',
-                fontWeight: 600,
-                marginBottom: '4px',
-              }}
-            >
-              {activeCategory}
-            </span>
             <div
               style={{
                 fontFamily: 'var(--font-heading)',
-                fontSize: '1.35rem',
-                color: 'var(--color-maroon)',
+                fontSize: '1.25rem',
+                color: 'var(--color-maroon-deep)',
                 fontWeight: 600,
+                letterSpacing: '0.02em',
               }}
             >
               {activeTitle}
             </div>
-
-            {activeCaption && (
-              <p
-                style={{
-                  fontSize: '0.88rem',
-                  color: 'var(--color-charcoal-muted)',
-                  fontStyle: 'italic',
-                  marginTop: '2px',
-                }}
-              >
-                {activeCaption}
-              </p>
-            )}
           </div>
 
           {/* Slider Controls Bar */}
@@ -432,48 +388,31 @@ export const GallerySection: React.FC = () => {
               <ChevronLeft size={22} />
             </button>
 
-            {/* Auto-Slide Indicator & Toggle */}
+            {/* Auto-Slide Indicator & Toggle (Icon Only) */}
             <button
               type="button"
               onClick={() => setIsAutoPlaying(!isAutoPlaying)}
               aria-label={isAutoPlaying ? 'Pause automatic slider' : 'Resume automatic slider'}
-              title={isAutoPlaying ? 'Pause 1s Auto-Slide' : 'Start 1s Auto-Slide'}
+              title={isAutoPlaying ? 'Pause automatic slider' : 'Resume automatic slider'}
               style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '7px',
-                padding: '8px 18px',
-                borderRadius: 'var(--radius-full)',
+                width: '42px',
+                height: '42px',
+                borderRadius: '50%',
                 background: isAutoPlaying ? 'var(--color-maroon)' : '#FFFFFF',
                 border: '1.5px solid var(--color-gold)',
                 color: isAutoPlaying ? '#FFFFFF' : 'var(--color-maroon)',
-                fontSize: '0.84rem',
-                fontWeight: 600,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
                 cursor: 'pointer',
                 boxShadow: isAutoPlaying ? 'var(--shadow-maroon)' : 'var(--shadow-sm)',
                 transition: 'all 0.2s ease',
               }}
             >
               {isAutoPlaying ? (
-                <>
-                  <Pause size={14} />
-                  <span>1s {lang === 'mr' ? 'फिरणे सुरू' : 'Auto-Rotating'}</span>
-                  <span
-                    style={{
-                      width: '8px',
-                      height: '8px',
-                      borderRadius: '50%',
-                      backgroundColor: '#25D366',
-                      display: 'inline-block',
-                      boxShadow: '0 0 6px #25D366',
-                    }}
-                  />
-                </>
+                <Pause size={18} />
               ) : (
-                <>
-                  <Play size={14} />
-                  <span>{lang === 'mr' ? 'सुरू करा (१ से)' : 'Start 1s Auto'}</span>
-                </>
+                <Play size={18} style={{ marginLeft: '2px' }} />
               )}
             </button>
 
