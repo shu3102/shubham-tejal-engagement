@@ -22,7 +22,7 @@ export const FooterSection: React.FC = () => {
       }}
     >
       <div className="container" style={{ maxWidth: '680px' }}>
-        {/* Line 1: Couple Names, Date & Venue City */}
+        {/* Line 1: Couple Names */}
         <p
           style={{
             fontFamily: 'var(--font-heading)',
@@ -33,7 +33,7 @@ export const FooterSection: React.FC = () => {
             margin: '0 0 0.4rem 0',
           }}
         >
-          {coupleNames} • {lang === 'mr' ? '१२ डिसेंबर २०२६ • नाशिक' : '12 December 2026 • Nashik'}
+          {coupleNames}
         </p>
 
         {/* Line 2: Warm Regards & Blessings */}

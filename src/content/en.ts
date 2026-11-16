@@ -116,7 +116,7 @@ export const enTranslations: Translations = {
 
   footer: {
     closingTitle: 'Shubham & Tejal',
-    closingSubtitle: 'Saturday, 12 December 2026 • Yashwant Lawns, Nashik',
+    closingSubtitle: 'Yashwant Lawns, Nashik',
     blessingsText: '“हृदये जुळली, मने जुळली, जुळले दोन परिवार...”',
     madeWithLove: 'Crafted with love for Shubham Somwanshi & Tejal Khairnar’s Sakharpuda.',
     backToTop: 'Back to Top',
