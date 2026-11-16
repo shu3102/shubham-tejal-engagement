@@ -37,7 +37,7 @@ export const eventConfig: EventConfig = {
     mr: 'शुभम आणि तेजल',
   },
 
-  coupleImage: './assets/images/placeholders/gallery-2.jpg',
+  coupleImage: './assets/images/placeholders/bothImage.jpg',
 
   date: {
     fullDateEn: 'Saturday, 12 December 2026',
@@ -78,7 +78,7 @@ export const eventConfig: EventConfig = {
      */
     whatsappNumber: '+917741085675',
     contactPersonEn: 'Somwanshi & Khairnar Family',
-    contactPersonMr: 'सोमवंशी व खैरnar परिवार',
+    contactPersonMr: 'सोमवंशी व खैरनार परिवार',
   },
 
   media: {
