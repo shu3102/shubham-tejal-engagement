@@ -31,10 +31,10 @@ export const EventDetailsSection: React.FC = () => {
   };
 
   return (
-    <section id="details" className="section section-alt">
+    <section id="details" className="section section-alt" style={{ padding: '3.5rem 0' }}>
       <div className="container">
         {/* Section Header */}
-        <div className="section-header">
+        <div className="section-header" style={{ marginBottom: '2.5rem' }}>
           <span className="section-tag">{t.details.sectionTag}</span>
           <h2 className="section-title">{t.details.sectionTitle}</h2>
           <div className="divider-motif">

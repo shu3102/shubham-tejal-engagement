@@ -62,10 +62,10 @@ export const GallerySection: React.FC = () => {
   };
 
   return (
-    <section id="gallery" className="section section-alt" style={{ overflow: 'hidden' }}>
+    <section id="gallery" className="section" style={{ overflow: 'hidden', padding: '3.5rem 0' }}>
       <div className="container">
         {/* Section Header */}
-        <div className="section-header">
+        <div className="section-header" style={{ marginBottom: '2.5rem' }}>
           <span className="section-tag">
             <Sparkles size={14} style={{ color: 'var(--color-gold)' }} />
             <span>{t.gallery.sectionTag}</span>
@@ -94,8 +94,8 @@ export const GallerySection: React.FC = () => {
             position: 'relative',
             maxWidth: '520px',
             margin: '0 auto',
-            paddingTop: '65px',
-            paddingBottom: '25px',
+            paddingTop: '45px',
+            paddingBottom: '15px',
             perspective: '1200px',
           }}
         >
@@ -105,7 +105,7 @@ export const GallerySection: React.FC = () => {
             style={{
               position: 'relative',
               width: '100%',
-              height: '480px',
+              height: '410px',
             }}
           >
             {galleryItems.map((item, index) => {
@@ -190,9 +190,9 @@ export const GallerySection: React.FC = () => {
                     position: 'absolute',
                     top: 0,
                     left: '50%',
-                    marginLeft: '-185px',
-                    width: '370px',
-                    height: '460px',
+                    marginLeft: '-165px',
+                    width: '330px',
+                    height: '390px',
                     transform,
                     zIndex,
                     opacity,
@@ -210,7 +210,7 @@ export const GallerySection: React.FC = () => {
                     style={{
                       width: '100%',
                       height: '100%',
-                      padding: '1rem',
+                      padding: '0.85rem',
                       display: 'flex',
                       flexDirection: 'column',
                       backgroundColor: '#FFFFFF',
@@ -242,7 +242,7 @@ export const GallerySection: React.FC = () => {
                       style={{
                         position: 'relative',
                         width: '100%',
-                        height: '350px',
+                        height: '295px',
                         borderRadius: 'var(--radius-sm)',
                         overflow: 'hidden',
                         backgroundColor: '#1E1214',
@@ -547,18 +547,18 @@ export const GallerySection: React.FC = () => {
       <style>{`
         @media (max-width: 480px) {
           .stack-stage-wrapper {
-            padding-top: 50px !important;
+            padding-top: 35px !important;
           }
           .card-stack-container {
-            height: 410px !important;
+            height: 350px !important;
           }
           .stack-card {
-            width: 290px !important;
-            height: 390px !important;
-            margin-left: -145px !important;
+            width: 260px !important;
+            height: 330px !important;
+            margin-left: -130px !important;
           }
           .stack-card .royal-frame > div:first-of-type {
-            height: 290px !important;
+            height: 240px !important;
           }
         }
         .stack-card.is-front:hover {

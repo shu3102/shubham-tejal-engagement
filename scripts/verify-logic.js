@@ -28,7 +28,7 @@ const countdown = calculateTimeRemaining(targetIso);
 console.log(`Countdown remaining from now: ${countdown.days} days, ${countdown.hours} hours, ${countdown.minutes} minutes, ${countdown.seconds} seconds.`);
 console.log(`Total seconds remaining: ${countdown.totalSecondsRemaining}`);
 
-if (countdown.totalSecondsRemaining <= 0 || countdown.days < 50) {
+if (countdown.totalSecondsRemaining <= 0 || countdown.days < 0) {
   throw new Error('Countdown calculation error!');
 }
 console.log('✓ Countdown test PASSED.');

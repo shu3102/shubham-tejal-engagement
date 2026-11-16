@@ -6,7 +6,6 @@ export const mrTranslations: Translations = {
     couple: 'वधू-वर',
     story: 'आमची गोष्ट',
     gallery: 'छायाचित्रे',
-    reels: 'रील्स',
     details: 'तपशील',
     rsvp: 'उपस्थिती (RSVP)',
   },
@@ -63,15 +62,6 @@ export const mrTranslations: Translations = {
     closeLightbox: 'गॅलरी बंद करा (Esc)',
     prevPhoto: 'मागील छायाचित्र',
     nextPhoto: 'पुढील छायाचित्र',
-  },
-
-  reels: {
-    sectionTag: 'व्हिडिओ झलक',
-    sectionTitle: 'रील्स आणि सिनेमॅटिक क्षण',
-    sectionSubtitle: 'आमच्या प्रेमाचे, सोहळ्याचे आणि साखरपुड्याच्या गोड आठवणींचे खास उभ्या (९:१६) आकारातील व्हिडिओज.',
-    playReel: 'व्हिडिओ सुरू करा',
-    pauseReel: 'व्हिडिओ थांबवा',
-    notAvailableNote: 'व्हिडिओ सध्या निर्मिती प्रक्रियेत असून लवकरच उपलब्ध होतील.',
   },
 
   details: {

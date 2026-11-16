@@ -14,12 +14,10 @@ export const eventConfig: EventConfig = {
     shortNameEn: 'Shubham',
     shortNameMr: 'शुभम',
     image: './assets/images/placeholders/shubham-portrait.png',
-    introEn: 'Senior Software Engineer, IBM • B.Tech (COEP) • Latur',
-    introMr: 'Senior Software Engineer, IBM • B.Tech (COEP) • मूळ लातूर',
-    bioEn:
-      'Shubham is a calm, caring, kind-hearted soul with an ambitious spirit and a playful side. Originally from Latur, he holds a B.Tech from COEP and works as a Senior Software Engineer at IBM. Whether it’s travelling, music, bikes, or cricket, he finds joy in the things he loves. At the heart of everything he does is one simple value: family and their happiness.',
-    bioMr:
-      'शांत, प्रेमळ आणि मनमिळाऊ स्वभावाचा, महत्त्वाकांक्षी आणि खोडकर बाजू असलेला शुभम लातूरचा आहे. COEP मधून B.Tech पूर्ण करून तो सध्या IBM मध्ये Senior Software Engineer म्हणून कार्यरत आहे. प्रवास, संगीत, बाईक आणि क्रिकेट या त्याच्या आवडीच्या गोष्टी आहेत. त्याच्यासाठी सर्वांत महत्त्वाचं आहे ते म्हणजे कुटुंब आणि आपल्या माणसांचा आनंद.',
+    introEn: 'Senior Software Engineer, IBM',
+    introMr: 'Senior Software Engineer, IBM',
+    bioEn: 'Senior Software Engineer, IBM',
+    bioMr: 'Senior Software Engineer, IBM',
   },
 
   bride: {
@@ -28,12 +26,10 @@ export const eventConfig: EventConfig = {
     shortNameEn: 'Tejal',
     shortNameMr: 'तेजल',
     image: './assets/images/placeholders/tejal-portrait.jpg',
-    introEn: 'Project Manager, ICICI • B.Tech (COEP) • Born in Abu Dhabi',
-    introMr: 'Project Manager, ICICI • B.Tech (COEP) • जन्म अबू धाबी',
-    bioEn:
-      'Tejal is a little princess with a cute charm, a fiery temper, and a wonderfully expressive personality. Born in Abu Dhabi, she holds a B.Tech from COEP and works as a Project Manager at ICICI. She loves shopping, food, and makeup—and has a special talent for teasing Shubhu! Beneath her spirited personality is a heart that treasures family and the happiness of her loved ones.',
-    bioMr:
-      'गोड, लाडकी आणि थोडीशी रागीट, चिडचिडी पण मनाने खास अशी तेजल म्हणजे सगळ्यांची लाडकी प्रिन्सेस! अबू धाबी येथे जन्मलेली तेजल COEP मधून B.Tech पूर्ण करून सध्या ICICI मध्ये Project Manager म्हणून कार्यरत आहे. शॉपिंग, खाणं आणि मेकअप या तिच्या आवडीच्या गोष्टी; आणि शुभूला चिडवणं हा तिचा खास छंद! तिच्यासाठीही कुटुंब आणि आपल्या माणसांचा आनंद सर्वांत महत्त्वाचा आहे.',
+    introEn: 'Project Manager, ICICI',
+    introMr: 'Project Manager, ICICI',
+    bioEn: 'Project Manager, ICICI',
+    bioMr: 'Project Manager, ICICI',
   },
 
   displayCoupleNames: {
@@ -80,7 +76,7 @@ export const eventConfig: EventConfig = {
      */
     whatsappNumber: '+917741085675',
     contactPersonEn: 'Somwanshi & Khairnar Family',
-    contactPersonMr: 'सोमवंशी व खैरनार परिवार',
+    contactPersonMr: 'सोमवंशी व खैरnar परिवार',
   },
 
   media: {

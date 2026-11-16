@@ -8,12 +8,8 @@ import { HeroSection } from './sections/HeroSection';
 import { CoupleSection } from './sections/CoupleSection';
 // import { StorySection } from './sections/StorySection';
 import { GallerySection } from './sections/GallerySection';
-
-import { ReelsSection } from './sections/ReelsSection';
 import { EventDetailsSection } from './sections/EventDetailsSection';
-
 import { RsvpSection } from './sections/RsvpSection';
-import { FooterSection } from './sections/FooterSection';
 
 export const AppContent: React.FC = () => {
   const [shareModalOpen, setShareModalOpen] = useState(false);
@@ -30,15 +26,12 @@ export const AppContent: React.FC = () => {
         <CoupleSection />
         {/* <StorySection /> */}
         <GallerySection />
-
-        <ReelsSection />
         <EventDetailsSection />
-
         <RsvpSection />
       </main>
 
-      {/* Footer Section */}
-      <FooterSection />
+      {/* Traditional Paithani Bottom Accent */}
+      <div className="paithani-strip" />
 
       {/* Mobile Floating Action Bar */}
       <FloatingActions onOpenShare={() => setShareModalOpen(true)} />

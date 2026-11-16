@@ -129,10 +129,8 @@ export interface Translations {
     couple: string;
     story: string;
     gallery: string;
-    reels: string;
     details: string;
     rsvp: string;
-
   };
   invocation: {
     mantra: string;
@@ -179,14 +177,6 @@ export interface Translations {
     closeLightbox: string;
     prevPhoto: string;
     nextPhoto: string;
-  };
-  reels: {
-    sectionTag: string;
-    sectionTitle: string;
-    sectionSubtitle: string;
-    playReel: string;
-    pauseReel: string;
-    notAvailableNote: string;
   };
   details: {
 

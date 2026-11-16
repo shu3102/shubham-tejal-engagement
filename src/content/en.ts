@@ -6,10 +6,8 @@ export const enTranslations: Translations = {
     couple: 'Couple',
     story: 'Our Story',
     gallery: 'Gallery',
-    reels: 'Reels',
     details: 'Event Details',
     rsvp: 'RSVP',
-
   },
 
   invocation: {
@@ -64,15 +62,6 @@ export const enTranslations: Translations = {
     closeLightbox: 'Close gallery preview (Esc)',
     prevPhoto: 'Previous photograph',
     nextPhoto: 'Next photograph',
-  },
-
-  reels: {
-    sectionTag: 'Cinematic Frames',
-    sectionTitle: 'Vertical Reels & Glimpses',
-    sectionSubtitle: 'Short video captures celebrating our bond, romance, and the upcoming Sakharpuda.',
-    playReel: 'Play reel',
-    pauseReel: 'Pause reel',
-    notAvailableNote: 'Reels are currently in post-production and will be available prior to final launch.',
   },
 
   details: {

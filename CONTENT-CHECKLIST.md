@@ -6,35 +6,35 @@ This checklist details all assets, texts, links, and approvals needed to transfo
 
 ## 1. Couple Names & Devanagari Spellings
 
-- [x] **Groom Name (English):** Confirmed `Shubham Somwanshi`
-- [x] **Groom Name (Marathi):** Confirmed `शुभम सोमवंशी`
-- [x] **Bride Name (English):** Confirmed `Tejal Khairnar`
-- [x] **Bride Name (Marathi):** Confirmed `तेजल खैरनार`
-- [x] **Couples Display Names:** Confirmed `Shubham & Tejal` / `शुभम आणि तेजल`
+- [ ] **Groom Name (English):** Confirm `Shubham Somwanshi`
+- [ ] **Groom Name (Marathi):** Confirm provisional spelling `शुभम सोमवंशी`
+- [ ] **Bride Name (English):** Confirm `Tejal Khairnar`
+- [ ] **Bride Name (Marathi):** Confirm provisional spelling `तेजल खैरनार` (or `तेजल खैरनार`)
+- [ ] **Couples Display Names:** Confirm `Shubham & Tejal` / `शुभम आणि तेजल`
 
-> **File updated:** `src/content/event.ts` (`groom`, `bride`, `displayCoupleNames`)
+> **File to update:** `src/content/event.ts` (`groom`, `bride`, `displayCoupleNames`)
 
 ---
 
 ## 2. Event Date, Time & Venue Verification
 
-- [x] **Ceremony Date:** Saturday, 12 December 2026
-- [x] **Ceremony Time:** 11:00 AM onwards (IST)
-- [x] **Venue Name:** Yashwant Lawns, Nashik
-- [x] **Venue Address:** Yashwant Lawns, Near Nandur Naka, Nashik Aurngabad Road, Wadivarhe, Swami Samartha Nagar, Nashik-422003, Maharashtra
-- [x] **Google Maps Link:** Configured `https://maps.app.goo.gl/ucuLXympjUwdLWkX8`
+- [ ] **Ceremony Date:** Saturday, 12 December 2026
+- [ ] **Ceremony Time:** 11:00 AM onwards (IST)
+- [ ] **Venue Name:** Yashwant Lawns, Nashik
+- [ ] **Venue Address:** Yashwant Lawns, Near Nandur Naka, Nashik Aurngabad Road, Wadivarhe, Swami Samartha Nagar, Nashik-422003, Maharashtra
+- [ ] **Google Maps Link:** Provide exact verified Google Maps URL (e.g. `https://maps.app.goo.gl/...` or `https://maps.google.com/?q=...`)
 
-> **File updated:** `src/content/event.ts` (`venue.googleMapsUrl`)
+> **File to update:** `src/content/event.ts` (`venue.googleMapsUrl`)
 
 ---
 
 ## 3. RSVP & WhatsApp Communication
 
-- [x] **WhatsApp RSVP Phone Number:** Configured `+917741085675`
-- [x] **Contact Family Names:** Confirmed (`Somwanshi & Khairnar Family` / `सोमवंशी व खैरनार परिवार`)
-- [x] **Prefilled WhatsApp Message:** Configured with personalized RSVP confirmation text in English and Marathi.
+- [ ] **WhatsApp RSVP Phone Number:** Supply the international format phone number (e.g., `+919876543210`)
+- [ ] **Contact Family Names:** Confirm family contact labels (`Somwanshi & Khairnar Family` / `सोमवंशी व खैरनार परिवार`)
+- [ ] **Prefilled WhatsApp Message:** Review and customize the prefilled RSVP confirmation text if desired.
 
-> **File updated:** `src/content/event.ts` (`rsvp.whatsappNumber`), `src/content/en.ts`, `src/content/mr.ts`
+> **File to update:** `src/content/event.ts` (`rsvp.whatsappNumber`)
 
 ---
 

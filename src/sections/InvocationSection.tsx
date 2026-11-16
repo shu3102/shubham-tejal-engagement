@@ -10,8 +10,8 @@ export const InvocationSection: React.FC = () => {
       id="invocation"
       className="invocation-section"
       style={{
-        paddingTop: 'calc(var(--header-height) + 2.5rem)',
-        paddingBottom: '2rem',
+        paddingTop: 'calc(var(--header-height) + 1.25rem)',
+        paddingBottom: '1rem',
         textAlign: 'center',
         position: 'relative',
         backgroundColor: 'var(--color-ivory)',
@@ -23,22 +23,22 @@ export const InvocationSection: React.FC = () => {
           style={{
             background: 'linear-gradient(180deg, #FFFFFF 0%, #FDFBF7 100%)',
             border: '1.5px solid var(--color-gold)',
-            padding: '2.5rem 2rem',
+            padding: '1.25rem 1.5rem',
             position: 'relative',
           }}
         >
           {/* Corner Ornaments */}
-          <div style={{ position: 'absolute', top: '8px', left: '8px' }}>
-            <RoyalCornerOrnament position="top-left" size={28} />
+          <div style={{ position: 'absolute', top: '6px', left: '6px' }}>
+            <RoyalCornerOrnament position="top-left" size={22} />
           </div>
-          <div style={{ position: 'absolute', top: '8px', right: '8px' }}>
-            <RoyalCornerOrnament position="top-right" size={28} />
+          <div style={{ position: 'absolute', top: '6px', right: '6px' }}>
+            <RoyalCornerOrnament position="top-right" size={22} />
           </div>
-          <div style={{ position: 'absolute', bottom: '8px', left: '8px' }}>
-            <RoyalCornerOrnament position="bottom-left" size={28} />
+          <div style={{ position: 'absolute', bottom: '6px', left: '6px' }}>
+            <RoyalCornerOrnament position="bottom-left" size={22} />
           </div>
-          <div style={{ position: 'absolute', bottom: '8px', right: '8px' }}>
-            <RoyalCornerOrnament position="bottom-right" size={28} />
+          <div style={{ position: 'absolute', bottom: '6px', right: '6px' }}>
+            <RoyalCornerOrnament position="bottom-right" size={22} />
           </div>
 
           {/* Ganesha Linework Motif */}
@@ -47,21 +47,21 @@ export const InvocationSection: React.FC = () => {
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginBottom: '1rem',
+              marginBottom: '0.4rem',
             }}
           >
-            <GaneshaMotif size={56} className="animate-float" />
+            <GaneshaMotif size={42} className="animate-float" />
           </div>
 
           {/* Sacred Mantra */}
           <h2
             style={{
               fontFamily: 'var(--font-heading-mr)',
-              fontSize: 'clamp(1.8rem, 3.8vw, 2.6rem)',
+              fontSize: 'clamp(1.4rem, 3.2vw, 2.1rem)',
               color: 'var(--color-maroon-deep)',
               fontWeight: 700,
               letterSpacing: '0.04em',
-              margin: '0.2rem 0 0.8rem 0',
+              margin: '0.1rem 0 0.4rem 0',
             }}
           >
             {t.invocation.mantra}
@@ -73,22 +73,22 @@ export const InvocationSection: React.FC = () => {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              gap: '12px',
-              margin: '0 auto 1.1rem auto',
+              gap: '10px',
+              margin: '0 auto 0.5rem auto',
             }}
           >
-            <div style={{ height: '1px', width: '40px', background: 'var(--color-gold)' }} />
-            <MangalKalashMotif size={24} />
-            <div style={{ height: '1px', width: '40px', background: 'var(--color-gold)' }} />
+            <div style={{ height: '1px', width: '35px', background: 'var(--color-gold)' }} />
+            <MangalKalashMotif size={20} />
+            <div style={{ height: '1px', width: '35px', background: 'var(--color-gold)' }} />
           </div>
 
           {/* Sacred Invocation Subtitle */}
           <p
             style={{
               fontFamily: 'var(--font-body)',
-              fontSize: '1rem',
+              fontSize: '0.92rem',
               color: 'var(--color-charcoal-muted)',
-              lineHeight: 1.7,
+              lineHeight: 1.5,
               maxWidth: '600px',
               margin: '0 auto',
             }}

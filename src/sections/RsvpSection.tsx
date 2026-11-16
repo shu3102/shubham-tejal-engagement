@@ -20,10 +20,10 @@ export const RsvpSection: React.FC = () => {
     lang === 'mr' ? eventConfig.rsvp.contactPersonMr : eventConfig.rsvp.contactPersonEn;
 
   return (
-    <section id="rsvp" className="section">
+    <section id="rsvp" className="section" style={{ padding: '3.5rem 0 6.5rem 0' }}>
       <div className="container" style={{ maxWidth: '820px' }}>
         {/* Section Header */}
-        <div className="section-header">
+        <div className="section-header" style={{ marginBottom: '2.5rem' }}>
           <span className="section-tag">{t.rsvp.sectionTag}</span>
           <h2 className="section-title">{t.rsvp.sectionTitle}</h2>
           <div className="divider-motif">
@@ -38,7 +38,7 @@ export const RsvpSection: React.FC = () => {
         <div
           className="royal-frame"
           style={{
-            padding: '3rem 2.25rem',
+            padding: '2.5rem 2rem',
             textAlign: 'center',
             backgroundColor: '#FFFFFF',
             border: '2px solid var(--color-gold)',
