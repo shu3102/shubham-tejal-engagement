@@ -81,6 +81,7 @@ export interface EventConfig {
     en: string;
     mr: string;
   };
+  coupleImage?: string;
   date: {
     fullDateEn: string;
     fullDateMr: string;

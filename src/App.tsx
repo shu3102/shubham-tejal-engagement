@@ -10,6 +10,7 @@ import { CoupleSection } from './sections/CoupleSection';
 import { GallerySection } from './sections/GallerySection';
 import { EventDetailsSection } from './sections/EventDetailsSection';
 import { RsvpSection } from './sections/RsvpSection';
+import { FooterSection } from './sections/FooterSection';
 
 export const AppContent: React.FC = () => {
   const [shareModalOpen, setShareModalOpen] = useState(false);
@@ -30,8 +31,8 @@ export const AppContent: React.FC = () => {
         <RsvpSection />
       </main>
 
-      {/* Traditional Paithani Bottom Accent */}
-      <div className="paithani-strip" />
+      {/* 2-Line Footer Section */}
+      <FooterSection />
 
       {/* Mobile Floating Action Bar */}
       <FloatingActions onOpenShare={() => setShareModalOpen(true)} />

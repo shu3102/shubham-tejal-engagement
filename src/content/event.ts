@@ -37,6 +37,8 @@ export const eventConfig: EventConfig = {
     mr: 'शुभम आणि तेजल',
   },
 
+  coupleImage: './assets/images/placeholders/gallery-2.jpg',
+
   date: {
     fullDateEn: 'Saturday, 12 December 2026',
     fullDateMr: 'शनिवार, १२ डिसेंबर २०२६',
