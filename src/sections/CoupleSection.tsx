@@ -12,9 +12,6 @@ export const CoupleSection: React.FC = () => {
   const groomName = lang === 'mr' ? eventConfig.groom.fullNameMr : eventConfig.groom.fullNameEn;
   const brideName = lang === 'mr' ? eventConfig.bride.fullNameMr : eventConfig.bride.fullNameEn;
 
-  const groomIntro = lang === 'mr' ? eventConfig.groom.introMr : eventConfig.groom.introEn;
-  const brideIntro = lang === 'mr' ? eventConfig.bride.introMr : eventConfig.bride.introEn;
-
   return (
     <section id="couple" className="section section-alt" style={{ padding: '3.5rem 0' }}>
       <div className="container" style={{ maxWidth: '860px' }}>
@@ -129,22 +126,11 @@ export const CoupleSection: React.FC = () => {
                   color: 'var(--color-maroon-deep)',
                   fontFamily: 'var(--font-heading)',
                   fontWeight: 700,
-                  marginBottom: '0.35rem',
+                  margin: 0,
                 }}
               >
                 {groomName}
               </h3>
-              <p
-                style={{
-                  fontSize: '0.94rem',
-                  color: 'var(--color-charcoal-muted)',
-                  fontWeight: 500,
-                  margin: 0,
-                  lineHeight: 1.4,
-                }}
-              >
-                {groomIntro}
-              </p>
             </div>
 
             {/* Central Ligature / Divider */}
@@ -182,22 +168,11 @@ export const CoupleSection: React.FC = () => {
                   color: 'var(--color-maroon-deep)',
                   fontFamily: 'var(--font-heading)',
                   fontWeight: 700,
-                  marginBottom: '0.35rem',
+                  margin: 0,
                 }}
               >
                 {brideName}
               </h3>
-              <p
-                style={{
-                  fontSize: '0.94rem',
-                  color: 'var(--color-charcoal-muted)',
-                  fontWeight: 500,
-                  margin: 0,
-                  lineHeight: 1.4,
-                }}
-              >
-                {brideIntro}
-              </p>
             </div>
           </div>
         </div>
