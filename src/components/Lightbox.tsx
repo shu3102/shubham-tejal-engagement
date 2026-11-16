@@ -216,7 +216,7 @@ export const Lightbox: React.FC<LightboxProps> = ({
               marginBottom: '0.4rem',
             }}
           >
-            {categoryLabel ? `${categoryLabel} • ` : ''}Photo {currentIndex + 1} of {items.length}
+            {categoryLabel ? `${categoryLabel} • ` : ''}{lang === 'mr' ? `छायाचित्र ${currentIndex + 1} / ${items.length}` : `Photo ${currentIndex + 1} of ${items.length}`}
           </span>
           <h3
             style={{
